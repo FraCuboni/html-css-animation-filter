@@ -36,3 +36,31 @@
 .ex-5-square:active{
     scale: 0.5;
 }
+
+.ex-6-img:hover{
+    filter: grayscale();
+}
+
+.ex-7-img{
+    transition: 2s;
+}
+.ex-7-img:hover{
+    filter: grayscale() blur(2px);
+}
+
+.ex-8-img{
+    transition: 2s;
+}
+.ex-8-img:hover{
+    filter: grayscale() invert();
+    border-radius: 20px;
+}
+
+.ex-9-img{
+    transition: 2s;
+}
+.ex-9-img:hover{
+    filter: grayscale() blur(1px);
+    border-radius: 20px;
+    scale: 1.5;
+}
